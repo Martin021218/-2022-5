@@ -22,7 +22,6 @@ int main()      //求勾股定理最长边c
 	double a{a1()};
 	double b{b1()};
 
-	std::cout << "a=" << a << "     b=" << b << "\n";					 //eg.a=?      b=?
 	std::cout << "c∧2=" << a << "∧2+" << b << "∧2\n";				     //   c²＝a²＋b²   
 	std::cout << "c=√(" << pow(a, 2) << "+" << pow(b, 2) << ")\n";       //    c²=√(a²＋b²)  
 	std::cout << "c=" << sqrt(pow(a, 2) + pow(b, 2));                    //    c=?
