@@ -1,0 +1,18 @@
+#include "pch.h"
+#include <iostream>
+
+int main()      //求勾股定理最长边c
+{
+	double a{};
+	double b{};
+	double c{};
+
+	std::cin >> a >> b;
+
+	std::cout << "a=" << a << "     b=" << b << "\n";					 //eg.a=?      b=?
+	std::cout << "c∧2=" << a << "∧2+" << b << "∧2\n";				     //   c²＝a²＋b²   
+	std::cout << "c=√(" << pow(a, 2) << "+" << pow(b, 2) << ")\n";       //    c²=√(a²＋b²)  
+	std::cout << "c=" << sqrt(pow(a, 2) + pow(b, 2));                    //    c=?
+
+	return 0;
+}
